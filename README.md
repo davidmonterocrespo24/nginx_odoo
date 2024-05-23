@@ -38,7 +38,7 @@ Ejecuta el script pasando el dominio como parámetro:
 ./nginx_odoo.sh ejemplo.com
 ```
 
-Descripción del Script
+### Descripción del Script
 El script realiza las siguientes acciones:
 
 Comprueba si se ha proporcionado un dominio como parámetro.
@@ -52,8 +52,8 @@ Recarga Nginx nuevamente para aplicar el nuevo certificado SSL.
 Archivo de Configuración de Nginx
 El archivo de configuración creado por el script tendrá el siguiente formato:
 
-nginx
-Copiar código
+```nginx
+
 upstream odooejemplocomw {
   server 127.0.0.1:8069;
 }
