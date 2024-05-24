@@ -14,10 +14,10 @@ ENABLED_PATH="/etc/nginx/sites-enabled/$DOMINIO.conf"
 
 # Crear el archivo de configuración para Nginx
 cat <<EOL > $CONFIG_PATH
-upstream odoowiki {
+upstream odoow {
   server 127.0.0.1:8069;
 }
-upstream odoochatwiki {
+upstream odoochatw {
   server 127.0.0.1:8072;
 }
 
